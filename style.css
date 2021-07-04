@@ -25,11 +25,11 @@ h2{
 }
 .flexible-container{
     display: flex;
-    padding-left: 5%;
     margin-bottom: 10%;
 }
 .half-width{
     width: 50%;
+    padding-left: 5%;
 }
 .top-left-banner{
     background-image: url(images/top-banner.png);
@@ -44,4 +44,49 @@ h2{
 .bd-logo{
     background-image: url(images/3d-realistic-pennant-with-flag_97886-2591.jpg);
     background-position: right top;
+}
+.ex-style1{
+    box-shadow: 20px 20px 60px gray;
+    width: 40%;
+    padding: 3% 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-left: 7px solid;
+    border-image: linear-gradient(orangered,cyan);
+    border-image-slice: 1;
+}
+.ex-style2{
+    box-shadow: 20px 20px 60px gray;
+    width: 40%;
+    padding: 3% 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-left: 7px solid;
+    border-image: linear-gradient(purple,cyan);
+    border-image-slice: 1;
+}
+.ex-style1:hover{
+    box-shadow: 20px 20px 60px gray;
+    width: 40%;
+    padding: 3% 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-right: 7px solid;
+    border-image: linear-gradient(orangered,cyan);
+    border-image-slice: 1;
+}
+.ex-style2:hover{
+    box-shadow: 20px 20px 60px gray;
+    width: 40%;
+    padding: 3% 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-right: 7px solid;
+    border-image: linear-gradient(purple,cyan);
+    border-image-slice: 1;
+}
+
+.media{
+    width: 35px;
+    height: 35px;
 }
