@@ -26,7 +26,7 @@ h2{
 .flexible-container{
     display: flex;
     padding-left: 5%;
-    
+    margin-bottom: 10%;
 }
 .half-width{
     width: 50%;
@@ -36,5 +36,12 @@ h2{
     background-repeat: no-repeat;
 }
 .half-width img{
-    width: 80%;
+    width: 90%;
+}
+.resume{
+    padding-top: 300px;
+}
+.bd-logo{
+    background-image: url(images/3d-realistic-pennant-with-flag_97886-2591.jpg);
+    background-position: right top;
 }
